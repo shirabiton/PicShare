@@ -1,0 +1,237 @@
+/* .Container {
+  /* background-color: #fff; */
+/* border-radius: 10px; */
+/* box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  /* position: relative;  ?? */
+/* position: fixed;
+  overflow: hidden;
+  width: 60%;
+  height: 80vh;
+  max-width: 100%;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+/* } 
+
+.SignUpContainer {
+  position: absolute;
+  height: 100%;
+  transition: all 0.6s ease-in-out;
+  left: 50%;
+  width: 50%;
+  opacity: 0;
+  z-index: 1;
+} */
+
+/* .moveLeft {
+  transform: translateX(-100%);
+  opacity: 1;
+  z-index: 5;
+}
+
+.SignInContainer {
+  padding-top: 18%;
+  position: absolute;
+  height: 100%;
+  transition: all 0.6s ease-in-out;
+  width: 50%;
+  z-index: 2;
+  padding-right: 1%;
+  margin-top: 7%;
+} */
+
+/* .moveRight {
+  transform: translateX(100%);
+}
+
+.Form {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 50px;
+  height: 100%;
+  margin-top: 3%;
+} */
+
+/* .Title {
+  font-weight: bold;
+  font-size: 3.5vw;
+  margin: 0;
+}
+
+.Input {
+  background-color: #eee;
+  border: none;
+  padding: 12px 15px;
+  margin: 8px 0;
+  width: 65%;
+}
+
+.Button {
+  border-radius: 20px;
+  border: 1px solid green;
+  background-color: green;
+  color: #ffffff;
+  font-size: 1vw;
+  height: 7vh;
+  width: 13vw;
+  font-weight: bold;
+  padding: 12px 45px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+  margin-top: 5%;
+  cursor: pointer;
+}
+
+.Button:active {
+  transform: scale(0.95);
+}
+
+.Button:focus {
+  outline: none; */
+
+/* } */
+
+/* .GhostButton {
+  background-color: transparent;
+  border-color: #ffffff;
+  font-size: 1vw;
+  height: 7vh;
+  width: 13vw;
+  cursor: pointer;
+}
+
+.Anchor {
+  color: #333;
+  font-size: 1vw;
+  text-decoration: none;
+  margin: 15px 0;
+}
+
+.OverlayContainer {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  transition: transform 0.6s ease-in-out;
+  z-index: 100;
+}
+
+.active2 {
+  transform: translateX(-100%);
+}
+
+.Overlay {
+  background: #ff416c;
+  background: -webkit-linear-gradient(to right, #ff4b2b, #ff416c);
+  background: linear-gradient(to right, #ff4b2b, #ff416c);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+  color: #ffffff;
+  position: relative;
+  left: -100%;
+  height: 100%; */
+/* width: 200%;
+  transition: transform 0.6s ease-in-out;
+}
+
+.active3 {
+  transform: translateX(50%);
+}
+
+.LeftOverlayPanel {
+  transform: translateX(100%);
+  padding-top: 15%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+}
+
+.active4 {
+  transform: translateX(-100%);
+}
+
+.RightOverlayPanel {
+  padding-top: 18%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transform: translateX(-100%);
+  width: 50%;
+}
+
+.active5 {
+  transform: translateX(0%);
+  right: 50%;
+  left: 0;
+}
+
+.Paragraph {
+  font-size: 1.5vw;
+  font-weight: 100;
+  line-height: 20px;
+  letter-spacing: 0.5px; */
+/* margin: 20px 0 30px */
+/* }  */
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+/* ?? */
+/* #home-page-bk {
+  background-image: url('/src/pic/העץ\ הבודד\ \(2\).jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: auto;
+  flex: 1;
+  transition: background-image 1s ease-in-out; /* טרנזיציה של התמונה */
+/* cursor: pointer;
+}
+
+@keyframes changeBackground {
+  0% {
+    background-image: url('/src/pic/הגן\ היפני\ \(6\).jpg');
+  }
+
+  50% {
+    background-image: url('/src/pic/מתחם\ התחנה\ \(6\).jpeg');
+  }
+
+  100% {
+    background-image: url('/src/pic/רחוב\ המטריות\ \(3\).jpg');
+    }
+
+  } */
+
+
+/* button of sweet alert */
+
+.custom-btn-class {
+  background-color: black;
+}
+
+.custom-btn-class:hover {
+  background-color: black;
+  opacity: '0.8';
+}
+
+.custom-btn-class:active {
+  background-color: #9400D3;
+}
