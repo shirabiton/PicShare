@@ -1,2 +1,2 @@
 # PicShare - Collaborative site for photography
-(web/src/Docs/Screenshots/homepage.png)[home-page]
+(web/src/Docs/Screenshots/home-page.png)[home-page]
