@@ -70,5 +70,29 @@ npm install @mui/material @emotion/react @emotion/styled
 ## צילומי מסך
 
 כל הפוסטים:
-![posts](web/src/Docs/Screenshots/posts.png)
-
+דף הבית:<br>
+![דף הבית](web/src/Docs/Screenshots/home-page.png)<br>
+הרשמה:<br>
+![הירשם](web/src/Docs/Screenshots/signin.png)<br>
+![נוספת בהצלחה](web/src/Docs/Screenshots/signin-succeed.png)<br>
+התחברות:<br>
+![התחבר](web/src/Docs/Screenshots/login.png)<br>
+![אתה מחובר](web/src/Docs/Screenshots/login-succeed.png)<br>
+אודות:<br>
+![קצת עלינו](web/src/Docs/Screenshots/about.png)<br>
+הוספת פוסט:<br>
+![הוספת פוסט](web/src/Docs/Screenshots/add-post.png)<br>
+![נוסף בהצלחה](web/src/Docs/Screenshots/add-post-succeed.png)<br>
+כל הפוסטים:<br>
+![פוסטים](web/src/Docs/Screenshots/posts.png)<br>
+חיפוש מהיר בפוסטים:<br>
+![חיפוש פוסט](web/src/Docs/Screenshots/search.png)<br>
+פרטי הפוסט:<br>
+![פרטי הפוסט](web/src/Docs/Screenshots/show-post.png)<br>
+הוספת תגובה:<br>
+![הוספת תגובה](web/src/Docs/Screenshots/add-comment.png)<br>
+התגובות לפוסט:<br>
+![תגובות לפוסט](web/src/Docs/Screenshots/comments.png)<br>
+פרופיל:<br>
+![פרופיל](web/src/Docs/Screenshots/profile.png)<br>
+![פוסטים של החשבון](web/src/Docs/Screenshots/profile-post.png)<br>
