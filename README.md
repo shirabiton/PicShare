@@ -5,7 +5,7 @@
 משתמשים שרשומים לאתר יכולים להעלות פוסטים עם המלצות בנושאים אלה, לצרף תמונה לפוסט להמחשה, וכן להגיב על פוסטים קיימים ולדרג אותם.<br>
 בפרופיל יכול המשתמש לראות את פרטיו האישיים, את כל הפוסטים שהעלה, לצפות בהם, לערוך או למחוק אותם. וכן קיימות אופציות של התנתקות מהחשבון ומחיקת החשבון.<br>
 
-![home page](web/src/Docs/Screenshots/home-page.png)
+![דף הבית](web/src/Docs/Screenshots/home-page.png)
 ![sign in](web/src/Docs/Screenshots/signin.png)
 ![sign in succeeded](web/src/Docs/Screenshots/signin-succeed.png)
 ![log in](web/src/Docs/Screenshots/login.png)
