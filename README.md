@@ -25,11 +25,38 @@ git clone https://github.com/shirabiton/PicShare.git
 ```
 
 ### התקנה בצד השרת: 
+פתח את הפרויקט בסביבת העבודה IntelliJ IDEA או Eclipse והרץ את השרת (לחץ על run).
+לאחר מכן, פתח את כתובת הדפדפן:
 ```bash
 http://localhost:8585/h2-console
 ```
-  
+שם תוכל לראות את מסד הנתונים שמור בטבלאות.<br>
+### התקנה בצד הלקוח:
+פתח את שורת הפקודה של תיקיית צד הלקוח שבפרויקט, כתוב:
+```bash
+code .
+```
+ואז Enter. כך ייפתח לך הפרויקט ב Visual Studio Code. <br>
+כעת הרץ את הפרויקט על ידי הפקוודה בטרמינל: 
+```bash
+npm run dev
+```
+<br>
 
+  ## תלויות חיצוניות
+  כפי שצויין, בצד הלקוח מותקנת הספרייה MUI (Material UI), זוהי ספרייה עיצובית של React.
+  נתקין אותה על ידי הפקודה הבאה בטרמינל:
+```bash
+npm install @mui/material @emotion/react @emotion/styled
+```
+או לחילופין, להתקין בקלות כל התקנה שהיא בפרויקט על ידי:
+```bash
+npm install @mui/material @emotion/react @emotion/styled
+```
+<br>
+
+## אופן השימוש
+## צילומי מסך
 
 ![דף הבית](web/src/Docs/Screenshots/home-page.png)
 ![הירשם](web/src/Docs/Screenshots/signin.png)
