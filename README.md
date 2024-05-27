@@ -83,7 +83,7 @@ npm install @mui/material @emotion/react @emotion/styled
 ![הוספת פוסט](web/src/Docs/Screenshots/add-post.png)
 ![נוסף בהצלחה](web/src/Docs/Screenshots/add-post-succeed.png)
 כל הפוסטים:
-![hi](web/src/Docs/Screenshots/posts.png)
+![קצת עלינו](web/src/Docs/Screenshots/posts.png)
 חיפוש מהיר בפוסטים:
 ![חיפוש פוסט](web/src/Docs/Screenshots/search.png)
 פרטי הפוסט:
