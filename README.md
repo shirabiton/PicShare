@@ -15,7 +15,7 @@
   - **צד השרת:** Java (Spring Boot).
   - **צד הלקוח:** React (Redux).
   - **מסד הנתונים:** H2. (לאחסון הנתונים בלבד)
-  - **ספריית UI:** MUI (Material UI).
+  - **ספריית עיצוב:** MUI (Material UI).
   - 
   
 
