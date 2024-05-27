@@ -70,5 +70,5 @@ npm install @mui/material @emotion/react @emotion/styled
 ## צילומי מסך
 
 כל הפוסטים:
-![קצת עלינו](web/src/Docs/Screenshots/posts.png)
+![posts](web/src/Docs/Screenshots/posts.png)
 
