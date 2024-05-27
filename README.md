@@ -69,29 +69,6 @@ npm install @mui/material @emotion/react @emotion/styled
 
 ## צילומי מסך
 
-דף הבית:
-![דף הבית](web/src/Docs/Screenshots/home-page.png)
-הרשמה:
-![הירשם](web/src/Docs/Screenshots/signin.png)
-![נוספת בהצלחה](web/src/Docs/Screenshots/signin-succeed.png)
-התחברות:
-![התחבר](web/src/Docs/Screenshots/login.png)
-![אתה מחובר](web/src/Docs/Screenshots/login-succeed.png)
-אודות:
-![קצת עלינו](web/src/Docs/Screenshots/about.png)
-הוספת פוסט:
-![הוספת פוסט](web/src/Docs/Screenshots/add-post.png)
-![נוסף בהצלחה](web/src/Docs/Screenshots/add-post-succeed.png)
 כל הפוסטים:
 ![קצת עלינו](web/src/Docs/Screenshots/posts.png)
-חיפוש מהיר בפוסטים:
-![חיפוש פוסט](web/src/Docs/Screenshots/search.png)
-פרטי הפוסט:
-![פרטי הפוסט](web/src/Docs/Screenshots/show-post.png)
-הוספת תגובה:
-![הוספת תגובה](web/src/Docs/Screenshots/add-comment.png)
-התגובות לפוסט:
-![תגובות לפוסט](web/src/Docs/Screenshots/comments.png)
-פרופיל:
-![פרופיל](web/src/Docs/Screenshots/profile.png)
-![פוסטים של החשבון](web/src/Docs/Screenshots/profile-post.png)
+
