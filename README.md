@@ -1,4 +1,6 @@
-# PicShare - Collaborative site for photography
+# PicShare - אתר שיתופי לצילום
+## סקירה כללית
+
 ![home page](web/src/Docs/Screenshots/home-page.png)
 ![sign in](web/src/Docs/Screenshots/signin.png)
 ![sign in succeeded](web/src/Docs/Screenshots/signin-succeed.png)
