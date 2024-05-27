@@ -68,10 +68,8 @@ npm install @mui/material @emotion/react @emotion/styled
 ישנו כפתור מרחף עם אייקון של פלוס בדף הפוסטים, דרכו נוכל להעלות פוסטים חדשים ולצרף להם תמונה. <br><br>
 
 ## צילומי מסך
-
-כל הפוסטים:
-דף הבית:<br>
-![דף הבית](web/src/Docs/Screenshots/home-page.png)<br>
+דף הבית:<br><br>
+![דף הבית](web/src/Docs/Screenshots/home-page.png)<br><br>
 הרשמה:<br>
 ![הירשם](web/src/Docs/Screenshots/signin.png)<br>
 ![נוספת בהצלחה](web/src/Docs/Screenshots/signin-succeed.png)<br>
@@ -93,6 +91,6 @@ npm install @mui/material @emotion/react @emotion/styled
 ![הוספת תגובה](web/src/Docs/Screenshots/add-comment.png)<br>
 התגובות לפוסט:<br>
 ![תגובות לפוסט](web/src/Docs/Screenshots/comments.png)<br>
-פרופיל:<br>
+הפרופיל שלי:<br>
 ![פרופיל](web/src/Docs/Screenshots/profile.png)<br>
 ![פוסטים של החשבון](web/src/Docs/Screenshots/profile-post.png)<br>
