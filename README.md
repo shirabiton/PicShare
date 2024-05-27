@@ -57,7 +57,7 @@ npm install sweetalert2
 ```
 או לחילופין, להתקין בקלות כל התקנה שהיא בפרויקט על ידי פקודה אחת:
 ```bash
-npm install @mui/material @emotion/react @emotion/styled
+npm install
 ```
 <br>
 
