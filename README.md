@@ -1,4 +1,4 @@
-# PicShare - אתר שיתופי לצילום
+# אתר שיתופי לצילום PicShare
 ## סקירה כללית
 
 ![home page](web/src/Docs/Screenshots/home-page.png)
