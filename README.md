@@ -70,27 +70,27 @@ npm install @mui/material @emotion/react @emotion/styled
 ## צילומי מסך
 דף הבית:<br><br>
 ![דף הבית](web/src/Docs/Screenshots/home-page.png)<br><br>
-הרשמה:<br>
-![הירשם](web/src/Docs/Screenshots/signin.png)<br>
-![נוספת בהצלחה](web/src/Docs/Screenshots/signin-succeed.png)<br>
-התחברות:<br>
-![התחבר](web/src/Docs/Screenshots/login.png)<br>
-![אתה מחובר](web/src/Docs/Screenshots/login-succeed.png)<br>
-אודות:<br>
-![קצת עלינו](web/src/Docs/Screenshots/about.png)<br>
-הוספת פוסט:<br>
-![הוספת פוסט](web/src/Docs/Screenshots/add-post.png)<br>
-![נוסף בהצלחה](web/src/Docs/Screenshots/add-post-succeed.png)<br>
-כל הפוסטים:<br>
-![פוסטים](web/src/Docs/Screenshots/posts.png)<br>
-חיפוש מהיר בפוסטים:<br>
-![חיפוש פוסט](web/src/Docs/Screenshots/search.png)<br>
-פרטי הפוסט:<br>
-![פרטי הפוסט](web/src/Docs/Screenshots/show-post.png)<br>
-הוספת תגובה:<br>
-![הוספת תגובה](web/src/Docs/Screenshots/add-comment.png)<br>
-התגובות לפוסט:<br>
-![תגובות לפוסט](web/src/Docs/Screenshots/comments.png)<br>
-הפרופיל שלי:<br>
-![פרופיל](web/src/Docs/Screenshots/profile.png)<br>
-![פוסטים של החשבון](web/src/Docs/Screenshots/profile-post.png)<br>
+הרשמה:<br><br>
+![הירשם](web/src/Docs/Screenshots/signin.png)<br><br>
+![נוספת בהצלחה](web/src/Docs/Screenshots/signin-succeed.png)<br><br>
+התחברות:<br><br>
+![התחבר](web/src/Docs/Screenshots/login.png)<br><br>
+![אתה מחובר](web/src/Docs/Screenshots/login-succeed.png)<br><br>
+אודות:<br><br>
+![קצת עלינו](web/src/Docs/Screenshots/about.png)<br><br>
+הוספת פוסט:<br><br>
+![הוספת פוסט](web/src/Docs/Screenshots/add-post.png)<br><br>
+![נוסף בהצלחה](web/src/Docs/Screenshots/add-post-succeed.png)<br><br>
+כל הפוסטים:<br><br>
+![פוסטים](web/src/Docs/Screenshots/posts.png)<br><br>
+חיפוש מהיר בפוסטים:<br><br>
+![חיפוש פוסט](web/src/Docs/Screenshots/search.png)<br><br>
+פרטי הפוסט:<br><br>
+![פרטי הפוסט](web/src/Docs/Screenshots/show-post.png)<br><br>
+הוספת תגובה:<br><br>
+![הוספת תגובה](web/src/Docs/Screenshots/add-comment.png)<br><br>
+התגובות לפוסט:<br><br>
+![תגובות לפוסט](web/src/Docs/Screenshots/comments.png)<br><br>
+הפרופיל שלי:<br><br>
+![פרופיל](web/src/Docs/Screenshots/profile.png)<br><br>
+![פוסטים של החשבון](web/src/Docs/Screenshots/profile-post.png)<br><br>
