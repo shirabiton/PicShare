@@ -50,7 +50,12 @@ npm run dev
 ```bash
 npm install @mui/material @emotion/react @emotion/styled
 ```
-או לחילופין, להתקין בקלות כל התקנה שהיא בפרויקט על ידי:
+וכן קיים שימוש בספרייה Sweet Alert המספפקת הודעות alert מעוצבות ורספונסיביות. 
+נתקין אותה על ידי הפקודה: 
+```bash
+npm install sweetalert2
+```
+או לחילופין, להתקין בקלות כל התקנה שהיא בפרויקט על ידי פקודה אחת:
 ```bash
 npm install @mui/material @emotion/react @emotion/styled
 ```
