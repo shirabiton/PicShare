@@ -1,101 +1,101 @@
-# אתר שיתופי לצילום - PicShare
-## סקירה כללית
-אתר זה הינו אתר שיתופי בנושא הצילום. <br>
-ניתן לקבל המלצות מפוסטים לגבי: צלמים מקצועיים, לוקיישנים מיוחדים לצילום, אביזרי צילום להשכרה/למכירה, וכן טיפים לצילום מהמומחים.<br>
-משתמשים שרשומים לאתר יכולים להעלות פוסטים עם המלצות בנושאים אלה, לצרף תמונה לפוסט להמחשה, וכן להגיב על פוסטים קיימים ולדרג אותם.<br>
-בפרופיל יכול המשתמש לראות את פרטיו האישיים, את כל הפוסטים שהעלה, לצפות בהם, לערוך או למחוק אותם. וכן קיימות אופציות של התנתקות מהחשבון ומחיקת החשבון.<br><br>
-## מאפיינים
-- הרשמה/התחברות למערכת ע"י פרטים אישיים, כתובת דוא"ל וסיסמה של החשבון.
-- צפייה בפרופיל המשתמש, שם רשומים פרטיו האישיים והפוסטים שהעלה. יש אפשרות לצפות בפוסטים של הפרופיל, לערוך או למחוק אותם. וכן ניתן להתנתק מהחשבון או למחוק אותו לצמיתות.
-- צפייה בפוסטים שהועלו, גם אדם שאינו רשום כמשתמש רשאי לצפות בפוסטים.
-- כתיבת פוסט לפי קטגוריה, בצירוף תמונה.
-- תגובה ודירוג לפוסט קיים.
+# PicShare - a collaborative photography platform
+## Overview
+This platform is a collaborative site about photography.<br>
+You can get recommendations from posts regarding: professional photographers, special locations for photography, photography accessories for rent/sale, as well as photography tips from the experts.<br>
+Users who are registered to the site can post recommendations on these topics, attach a picture to the post for illustration, as well as comment on existing posts and rate them.<br>
+In the profile, user can see his/her personal details, all the posts he/she has uploaded, view them, edit or delete them.<br>
+And there are options of disconnecting from the account and deleting the account.<br><br>
+## Features
+- Registration/login to the system by full name, email address and password of the account.
+- Viewing the user's profile, where his/her personal details and the posts he/she uploaded are listed. It is possible to view the posts of the profile, edit and delete them. User also can disconnect from the account or delete it permanently.
+- Viewing the uploaded posts, even someone who is not registered as a user may view the posts.
+- Writing a post by category, along with a picture.
+- Response and rating to an existing post.
   <br><br>
-## שימוש בטכנולוגיות
-- **צד השרת:** Java (Spring Boot).
-- **צד הלקוח:** React (Redux).
-- **ספריית עיצוב:** MUI (Material UI).
-- **מסד הנתונים:** H2. (לאחסון הנתונים בלבד)
+## Use Of Technologies
+- **Server side:** Java (Spring Boot).
+- **Client side:** React (Redux).
+- **Design libraries:** MUI (Material UI), Sweet-Alert2.
+- **Database:** H2. (for data storage only)
 <br>
 
- ## התקנה
- ראשית הורד את הקובץ למחשב המקומי שלך על ידי הפקודה הבאה בשורת הפקודה של התיקייה הרצויה:
- ```bash
+ ## Installation
+First clone the file to your local computer by the following command in the command line of the desired folder: 
+```bash
 git clone https://github.com/shirabiton/PicShare.git
 ```
 
-### התקנה בצד השרת: 
-פתח את הפרויקט בסביבת העבודה IntelliJ IDEA או Eclipse והרץ את השרת (לחץ על run).
-לאחר מכן, פתח את כתובת הדפדפן:
+### Server-side installation:
+Open the project in the IntelliJ IDEA or Eclipse workspace and run the server.
+Then, open the browser URL:
 ```bash
 http://localhost:8585/h2-console
 ```
-שם תוכל לראות את מסד הנתונים שמור בטבלאות.
-
-### התקנה בצד הלקוח:
-פתח את שורת הפקודה של תיקיית צד הלקוח שבפרויקט, כתוב:
+There you can see the database saved in tables.
+### Client-side installation:
+Open the command line of the client-side folder in the project, and write:
 ```bash
 code .
 ```
-ואז Enter. כך ייפתח לך הפרויקט ב Visual Studio Code. <br>
-כעת הרץ את הפרויקט על ידי הפקוודה בטרמינל: 
+Then type enter. This is how the project will open for you in Visual Studio Code. <br>
+Now run the project by the command in terminal:
 ```bash
 npm run dev
 ```
 <br>
 
-  ## תלויות חיצוניות
-  כפי שצויין, בצד הלקוח מותקנת הספרייה MUI (Material UI), זוהי ספרייה עיצובית של React.
-  נתקין אותה על ידי הפקודה הבאה בטרמינל:
+## External Dependencies
+As mentioned, the MUI (Material UI) library is installed on the client-side, it is a React UI-library.
+We will install it by the following command in the terminal:
 ```bash
 npm install @mui/material @emotion/react @emotion/styled
 ```
-וכן קיים שימוש בספרייה Sweet Alert המספקת הודעות alert מעוצבות ורספונסיביות. 
-נתקין אותה על ידי הפקודה: 
+And there is use of the Sweet-Alert2 library that provides well-designed and responsive alert messages.
+We will install it by the command:
 ```bash
 npm install sweetalert2
 ```
-או לחילופין, להתקין בקלות כל התקנה שהיא בפרויקט על ידי פקודה אחת:
+Or alternatively, easily install any installation in the project by this command:
 ```bash
 npm install
 ```
 <br>
 
-## אופן השימוש
-מדף הבית ניתן להתחבר/להירשם על ידי לחיצה על: "התחבר/הירשם" בכותרת העליונה. <br>
-נוכל לנווט ל"קצת עלינו" לדף אודות האתר, <br>
-וכן, לנווט לפרופיל שלנו בלחיצה על האווטאר של החשבון שלנו. <br>
-לחיצה על "פוסטים" תוביל אותנו למאגר פוסטים שהועלו, בסרגל הצד ננווט בין הקטגוריות השונות עבור המלצות לצילום. <br>
-ניתן לחפש פוסטים על ידי חיפוש מהיר של כותרת הפוסט בכותרת העליונה של האתר. <br>
-בכל שלב, לחיצה על הלוגו תוביל אותנו לדף הבית, ובכל עמוד אם נגלול למטה נוכל לעלות לראש הדף על ידי לחיצה על אייקון של חץ כלפי מעלה. <br>
-לחיצה על פוסט תוביל אותנו לדף הפוסט המלא, בראש הפוסט נראה מיהו בעל הפוסט, ואז את התמונה והטקסט, בהמשך הדף יוצג הדירוג והתגובות, <br>
-שם, בתור משתמשים נהיה רשאיים לדרג ולהגיב על הפוסט. <br>
-ישנו כפתור מרחף עם אייקון של פלוס בדף הפוסטים, דרכו נוכל להעלות פוסטים חדשים ולצרף להם תמונה. <br><br>
-
-## מדריך ויזואלי
-דף הבית:<br><br>
-![דף הבית](web/src/Docs/Screenshots/home-page.png)<br><br>
-הרשמה:<br><br>
-![הירשם](web/src/Docs/Screenshots/signin.png)<br><br>
-![נוספת בהצלחה](web/src/Docs/Screenshots/signin-succeed.png)<br><br>
-התחברות:<br><br>
-![התחבר](web/src/Docs/Screenshots/login.png)<br><br>
-![אתה מחובר](web/src/Docs/Screenshots/login-succeed.png)<br><br>
-אודות:<br><br>
-![קצת עלינו](web/src/Docs/Screenshots/about.png)<br><br>
-הוספת פוסט:<br><br>
-![הוספת פוסט](web/src/Docs/Screenshots/add-post.png)<br><br>
-![נוסף בהצלחה](web/src/Docs/Screenshots/add-post-succeed.png)<br><br>
-כל הפוסטים:<br><br>
-![פוסטים](web/src/Docs/Screenshots/posts.png)<br><br>
-חיפוש מהיר בפוסטים:<br><br>
-![חיפוש פוסט](web/src/Docs/Screenshots/search.png)<br><br>
-פרטי הפוסט:<br><br>
-![פרטי הפוסט](web/src/Docs/Screenshots/show-post.png)<br><br>
-הוספת תגובה:<br><br>
-![הוספת תגובה](web/src/Docs/Screenshots/add-comment.png)<br><br>
-התגובות לפוסט:<br><br>
-![תגובות לפוסט](web/src/Docs/Screenshots/comments.png)<br><br>
-הפרופיל שלי:<br><br>
-![פרופיל](web/src/Docs/Screenshots/profile.png)<br><br>
-![פוסטים של החשבון](web/src/Docs/Screenshots/profile-post.png)<br><br>
+## How to use
+From the home page you can log in/register by clicking on: "התחבר/הירשם" in the header. <br>
+We can navigate to "קצת עלינו" to the page about the site, <br>
+and, navigate to our profile by clicking on our account avatar. <br>
+Clicking on "פוסטים" will lead us to a database of uploaded posts, in the sidebar we will navigate through the various categories for photography recommendations. <br>
+You can search for posts by quickly searching for the post title in the header of the site. <br>
+At each stage, clicking on the logo will take us to the home page, and on each page if we scroll down we can go to the top of the page by clicking on an up-arrow icon. <br>
+Clicking on a post will lead us to the full post page, at the top of the post we can see who the owner of the post is, then the image and the text of the post, further down the page the rating and comments will be displayed, <br>
+There, as users we will be allowed to rate and comment on the post. <br>
+There is a floating button with a plus icon on the posts page, through which we can upload new posts and attach a picture to them.<br><br>
+## A Visual Guide
+Homepage:<br><br>
+![Homepage](web/src/Docs/Screenshots/home-page.png)<br><br>
+Registration:<br><br>
+![Registration](web/src/Docs/Screenshots/signin.png)<br><br>
+![Successfully Added](web/src/Docs/Screenshots/signin-succeed.png)<br><br>
+Log In:<br><br>
+![Log In](web/src/Docs/Screenshots/login.png)<br><br>
+![You are logged in](web/src/Docs/Screenshots/login-succeed.png)<br><br>
+About Us:<br><br>
+![About Us](web/src/Docs/Screenshots/about.png)<br><br>
+Post A Recommendation:<br><br>
+![Post A Recommendation](web/src/Docs/Screenshots/add-post.png)<br><br>
+![Successfully Posted](web/src/Docs/Screenshots/add-post-succeed.png)<br><br>
+All Posts:<br><br>
+![All Posts](web/src/Docs/Screenshots/posts.png)<br><br>
+Quick Search Of The Posts:<br><br>
+![Post Search](web/src/Docs/Screenshots/search.png)<br><br>
+Post Details:<br><br>
+![Post Details](web/src/Docs/Screenshots/show-post.png)<br><br>
+Comment:<br><br>
+![Comment](web/src/Docs/Screenshots/add-comment.png)<br><br>
+The Comments To The Post:<br><br>
+![The Comments To The Post](web/src/Docs/Screenshots/comments.png)<br><br>
+User's Profile:<br><br>
+![User's Profile](web/src/Docs/Screenshots/profile.png)<br><br>
+Profile's Posts:<br><br>
+![Profile's Posts](web/src/Docs/Screenshots/profile-post.png)<br><br>
