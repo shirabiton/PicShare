@@ -15,7 +15,7 @@ And there are options of disconnecting from the account and deleting the account
 ## Use Of Technologies
 - **Server side:** Java (Spring Boot).
 - **Client side:** React (Redux).
-- **Design libraries:** MUI (Material UI), Sweet-Alert2.
+- **Design libraries:** MUI (Material UI), SweetAlert2.
 - **Database:** H2. (for data storage only)
 <br>
 
@@ -50,7 +50,7 @@ We will install it by the following command in the terminal:
 ```bash
 npm install @mui/material @emotion/react @emotion/styled
 ```
-And there is use of the Sweet-Alert2 library that provides well-designed and responsive alert messages.
+And there is use of the SweetAlert2 library that provides well-designed and responsive alert messages.
 We will install it by the command:
 ```bash
 npm install sweetalert2
