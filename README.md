@@ -13,10 +13,10 @@ And there are options of disconnecting from the account and deleting the account
 - Response and rating to an existing post.
   <br><br>
 ## Use Of Technologies
-- **Server side:** Java (Spring Boot).
-- **Client side:** React (Redux).
-- **Design libraries:** MUI (Material UI), SweetAlert2.
-- **Database:** H2. (for data storage only)
+- **Server side:** Java (Spring Boot)
+- **Client side:** React (Redux)
+- **Design libraries:** MUI (Material UI), SweetAlert2
+- **Database:** H2 (for data storage only)
 <br>
 
  ## Installation
